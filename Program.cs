@@ -10,7 +10,16 @@ namespace Chuong1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\nTổng là:");
+            //Bài 72: Tính S(x, n) = – x + x^2/2! – x^3/3! + … + (-1)^n * x^n/n!
+            Console.WriteLine("\nBài 72: Tính S(x, n) = – x + x^2/2! – x^3/3! + … + (-1)^n * x^n/n!");
+            int n_336;
+            double x_336, S_336 = 0, tu_336, mau_336;
+
+            Console.Write("Nhập x: ");
+            x_336 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Nhập n: ");
+            n_336 = Convert.ToInt32(Console.ReadLine());
             Console.ReadLine();
         }
     }
