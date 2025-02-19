@@ -10,9 +10,11 @@ namespace Chuong1
     {
         static void Main(string[] args)
         {
+
+            /*Tính tổng S = 1 / (2 × 1) +1 / (2 × 2) +... +1 / (2 × n) */
             int n_336;
             double S_336 = 0;
-
+            Console.WriteLine("Tính tổng S = 1 / (2 × 1) + 1 / (2 × 2) + ... + 1 / (2 × n)");
             do
             {
                 Console.Write("\nNhập n: ");
@@ -21,12 +23,11 @@ namespace Chuong1
                     Console.WriteLine("\nN phải lớn hơn hoặc bằng 1. Xin nhập lại!");
                 }
             } while (n_336 < 1);
-
+           
             for (int i_336 = 1; i_336 <= n_336; i_336++)
             {
                 S_336 += 1.0 / (2 * i_336);
             }
-
             Console.WriteLine("\nTổng là: {0:F6}", S_336);
         
             Console.ReadLine();
