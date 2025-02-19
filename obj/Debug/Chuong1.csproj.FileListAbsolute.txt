@@ -1,0 +1,7 @@
+E:\BT_C#\Chuong1\bin\Debug\Chuong1.exe.config
+E:\BT_C#\Chuong1\bin\Debug\Chuong1.exe
+E:\BT_C#\Chuong1\bin\Debug\Chuong1.pdb
+E:\BT_C#\Chuong1\obj\Debug\Chuong1.csproj.AssemblyReference.cache
+E:\BT_C#\Chuong1\obj\Debug\Chuong1.csproj.CoreCompileInputs.cache
+E:\BT_C#\Chuong1\obj\Debug\Chuong1.exe
+E:\BT_C#\Chuong1\obj\Debug\Chuong1.pdb
