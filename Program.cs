@@ -10,8 +10,19 @@ namespace Chuong1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\nTổng là:");
-            Console.ReadLine();
+            //Bài 65 : Giải phương trình bậc 2
+            Console.WriteLine("\nBài 65 : Giải phương trình bậc 2");
+            double a_336, b_336, c_336, delta_336, x1_336, x2_336;
+
+            Console.Write("Nhập a: ");
+            a_336 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Nhập b: ");
+            b_336 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Nhập c: ");
+            c_336 = Convert.ToDouble(Console.ReadLine());
+            
         }
     }
 }
