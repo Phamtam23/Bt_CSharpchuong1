@@ -29,8 +29,36 @@ namespace Chuong1
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("\nTổng là:");
-            Console.ReadLine();
+            //Bài 103: Viết chương trình nhập vào 1 ngày ( ngày, tháng, năm). Tìm ngày trước ngày vừa nhập (ngày, tháng, năm)
+            Console.WriteLine("\nBài 103: Viết chương trình nhập vào 1 ngày ( ngày, tháng, năm). Tìm ngày trước ngày vừa nhập (ngày, tháng, năm)");
+
+            int day_336, month_336, year_336;
+
+            Console.Write("Nhập ngày: ");
+            day_336 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Nhập tháng: ");
+            month_336 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Nhập năm: ");
+            year_336 = Convert.ToInt32(Console.ReadLine());
+
+            if (!IsValidDate(day_336, month_336, year_336))
+            {
+                Console.WriteLine("Ngày nhập không hợp lệ!");
+            }
+            else
+            {
+                // Tạo đối tượng DateTime và trừ đi 1 ngày
+                DateTime currentDate_336 = new DateTime(year_336, month_336, day_336);
+                DateTime previousDate_336 = currentDate_336.AddDays(-1);
+
+                Console.WriteLine("Ngày trước đó là: {0}/{1}/{2}",
+                    previousDate_336.Day, previousDate_336.Month, previousDate_336.Year);
+            }
+
+            Console.WriteLine("Nhấn phím bất kỳ để kết thúc...");
+            Console.ReadKey();
         }
     }
 }
